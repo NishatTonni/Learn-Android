@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:title="Red color"
+        android:id="@+id/redColorMenuItemID"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+
+        android:title="Pink color"
+        android:id="@+id/pinkColorMenuItemID"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+
+        android:title="Green color"
+        android:id="@+id/greenColorMenuItemID"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+
+        android:title="Yellow color"
+        android:id="@+id/yellowColorMenuItemID"
+        app:showAsAction="never"
+        >
+    </item>
+
+</menu>

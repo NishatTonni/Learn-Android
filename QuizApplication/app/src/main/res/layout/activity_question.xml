@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#CE93D8"
+    tools:context=".QuestionActivity">
+
+    <TextView
+        android:id="@+id/questionTextHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Question"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <ProgressBar
+            android:id="@+id/progressBarId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            style="?android:progressBarStyleHorizontal"
+            android:progress="0"
+            android:max="5">
+        </ProgressBar>
+
+        <TextView
+            android:id="@+id/progressTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/5"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:background="@drawable/question_optionbackground"
+        android:padding="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:background="@drawable/question_optionbackground"
+        android:padding="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:background="@drawable/question_optionbackground"
+        android:padding="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:background="@drawable/question_optionbackground"
+        android:padding="10dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/submitBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginTop="10dp">
+
+    </Button>
+
+</LinearLayout>

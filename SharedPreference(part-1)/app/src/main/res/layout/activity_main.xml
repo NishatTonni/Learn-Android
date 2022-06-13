@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/usernameEdittextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/passwordEdittextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/saveBtnId"
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/loadBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            >
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detailsTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        >
+
+    </TextView>
+
+
+</LinearLayout>

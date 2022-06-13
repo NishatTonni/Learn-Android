@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/drawable/button.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/drawable/button2.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/drawable/ic_baseline_local_fire_department_24.xml" value="0.1" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/layout/activity_facebook_auth.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/layout/activity_login.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/layout/fragment_daily_challenge.xml" value="0.1" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/layout/fragment_leader_board.xml" value="0.1" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/layout/fragment_question_input.xml" value="0.1" />
+        <entry key="..\:/Users/nixon/Desktop/learn android/BanglaQuizApp/app/src/main/res/layout/login_layout.xml" value="0.27395833333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1762917933130699" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

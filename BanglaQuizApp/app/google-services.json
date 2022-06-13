@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "942076058253",
+    "project_id": "banglaquiz-76a82",
+    "storage_bucket": "banglaquiz-76a82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942076058253:android:2efe5eee4a728878d160c4",
+        "android_client_info": {
+          "package_name": "com.tonni.banglaquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942076058253-qf4ttiokv2uprdmtnblu3tplh1asi0qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8hVb1diEnavRF4hmClC4z7nrxjLOcPbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942076058253-qf4ttiokv2uprdmtnblu3tplh1asi0qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
